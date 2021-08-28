@@ -1,0 +1,38 @@
+GET http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRoaW5lc2hfYWsiLCJpZCI6IjYwZjRlOGQwZmVkYjBkMjk4Yzk5Nzc2MSIsImlhdCI6MTYyNjgzNzMwNywiZXhwIjoxNjI2OTIzNzA3fQ.kw8fQ4WC7FyU_OJHk99U_IEof7qf7w5Xnl5YUvPUNBU
+
+# POST http://localhost:3001/api/blogs
+# Content-Type: application/json
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRoaW5lc2hfYWsiLCJpZCI6IjYwZjRlOGQwZmVkYjBkMjk4Yzk5Nzc2MSIsImlhdCI6MTYyNjgzNzMwNywiZXhwIjoxNjI2OTIzNzA3fQ.kw8fQ4WC7FyU_OJHk99U_IEof7qf7w5Xnl5YUvPUNBU
+
+# {
+#     "title": "java",
+#     "author": "dk",
+#     "url": "http://learnjava.com",
+#     "likes": 113
+# }
+
+# DELETE http://localhost:3001/api/blogs/60f4eba4b2ac013224d3b7e7
+# Content-Type: application/json
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRoaW5lc2hfYWsiLCJpZCI6IjYwZjRlOGQwZmVkYjBkMjk4Yzk5Nzc2MSIsImlhdCI6MTYyNjgzNzMwNywiZXhwIjoxNjI2OTIzNzA3fQ.kw8fQ4WC7FyU_OJHk99U_IEof7qf7w5Xnl5YUvPUNBU
+
+# GET http://localhost:3001/api/users
+
+# POST http://localhost:3001/api/users
+# Content-Type : application/json
+
+# {
+#     "notes": [],
+#     "username": "john.h",
+#     "name": "john",
+#     "password": "john123"
+# }
+
+# POST http://localhost:3001/api/login
+# Content-Type : application/json
+
+# {
+#     "username": "dhinesh_ak",
+#     "password": "learn_Blog"
+# }
